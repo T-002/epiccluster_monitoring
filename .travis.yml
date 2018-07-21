@@ -1,0 +1,12 @@
+sudo: false
+language: python
+
+python:
+  - "3.5"
+
+script:
+  - nosetests -c nose.cfg
+
+install:
+- pip install influxdb
+- pip install requests
