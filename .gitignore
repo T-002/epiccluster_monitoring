@@ -105,3 +105,4 @@ venv.bak/
 
 # custom packages
 epiccluster/monitoring/monitoring_configuration.py
+.idea
